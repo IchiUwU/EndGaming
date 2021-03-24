@@ -1,0 +1,180 @@
+body{
+    font-family: sans-serif;
+    background: #2f3136;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.3s all ease;
+}
+
+body.light{
+    background: #fff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container-header{
+    width: 100%;
+    background: #23272a;
+    height: 80px;
+}
+
+body.light .container-header{
+    background: #202f33;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+.container-inf-header{
+    width: 98%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.container-inf-header div{
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 54px;
+}
+
+.f-left div a {
+    padding: 25px 25px;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.img-header {
+    padding-top: 10px;
+}
+
+.position-header{
+    width: 100%;
+    height: 54px;
+    padding-top: 26px;
+}
+
+.img-header{
+    width: 100%;
+}
+
+.img-header img{
+    height: 60px;
+}
+
+/* SWITCH CAMBIO DE COLOR */
+
+.switch{
+    background: #343d5b;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    font-size: 1rem;
+}
+
+.switch::after{
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: #f1f1f1;
+    top: -2px;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: 0.3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.switch:active{
+    background: orange;
+    color: #000;
+}
+
+.switch:active::after{
+    right: 0;
+    left: unset;
+}
+
+.active{
+    background: orange;
+    color: #000;
+}
+
+.active::after{
+    right: 0;
+    left: unset;
+    transition: 0.3s ease all;
+}
+
+.switch span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #ffffff;
+}
+
+/* PANTALLAS MAS GRANDES 
+@media (min-width:1201px){
+
+};*/
+
+/* COMPUTADOR PORTATIL */
+@media (max-width:1200px){
+    .container-header{
+        height: 60px;
+    }
+
+    .img-header img{
+        height: 40px;
+    }
+
+    .container-inf-header div {
+        height: 45px;
+    }
+
+    .position-header {
+        padding-top: 15px;
+    }
+
+    .f-left div a {
+    padding: 18px 25px;
+    }
+    
+};
+
+/* TABLETAS HORIZONTAL */
+@media (max-width: 1024px){
+
+};
+
+/* TABLETAS VERTICAL */
+@media (max-width:768px){
+
+};
+
+/* DISPOSITIVOS MOVILES HORIZONTAL */
+@media (max-width:480px){
+
+};
+
+/* DISPOSITIVOS MOVILES VERTICAL */
+@media (max-width:320px){
+
+};
