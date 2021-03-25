@@ -156,6 +156,11 @@ header{
     .f-left div a {
     padding: 18px 25px;
     }
+
+    header {
+    height: 60px;
+    }
+
     
 };
 
