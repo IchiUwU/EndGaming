@@ -32,6 +32,44 @@ header{
     height: 80px;
 }
 
+.search{
+    border: none;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #2f3136;
+    color: #fff;
+    border-bottom: 1px solid #99aab5;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+input.search{
+    width: 14rem;
+}
+
+button.search{
+    cursor: pointer;
+}
+
+.search:focus{
+    outline: none;
+    font-size: 1.2rem;
+    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
+box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
+    
+}
+
 .container-inf-header{
     width: 98%;
     margin: 0px auto;
@@ -54,6 +92,7 @@ header{
 
 .f-right{
     float: right;
+    margin-left: 1rem;
 }
 
 .img-header {
@@ -66,6 +105,29 @@ header{
     padding-top: 26px;
 }
 
+.position-header-s{
+    width: 100%;
+    margin-top: 22px;
+}
+
+/* CAMBIAR COLOR PLACEHOLDER */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+/* ///////////////////////////////////////////////////// */
 .img-header{
     width: 100%;
 }
@@ -156,13 +218,21 @@ header{
     }
 
     .f-left div a {
-    padding: 18px 25px;
+    padding: 18px 12px;
     }
 
     header {
     height: 60px;
     }
 
+    input.search {
+        width: 12rem;
+    }
+    
+    .position-header-s {
+        width: 100%;
+        margin-top: 10px;
+    }
     
 };
 
