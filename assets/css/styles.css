@@ -24,7 +24,7 @@ a{
 }
 
 body.light .container-header{
-    background: #202f33;
+    background: #23272a;
 }
 
 header{
@@ -32,7 +32,7 @@ header{
     height: 80px;
 }
 
-.search{
+.buscador{
     border: none;
     height: 40px;
     font-size: 1.2rem;
@@ -53,15 +53,15 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 
-input.search{
+input.buscador{
     width: 14rem;
 }
 
-button.search{
+button.buscador{
     cursor: pointer;
 }
 
-.search:focus{
+.buscador:focus{
     outline: none;
     font-size: 1.2rem;
     -webkit-box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
