@@ -4,6 +4,8 @@ body{
     color: #ffffff;
     font-size: 16px;
     transition: 0.3s all ease;
+    margin: 0px;
+    padding: 0px;
 }
 
 body.light{
