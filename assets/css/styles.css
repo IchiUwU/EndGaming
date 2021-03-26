@@ -82,12 +82,151 @@ box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
     height: 54px;
 }
 
-.f-left div a {
+.main{
+    background: #23272a;
+    border-radius: 5px;
+}
+
+.container-all{
+    width: 80%;
+    margin: 30px auto;
+    background: #23272a;
+}
+
+.container-main{
+    width: 60%;
+    padding: 0px 1%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+li p{
+    font-weight: 600;
+}
+
+.disfrute{
+    color: #99aab5;
+    font-size: 3rem;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.container-aside-l{
+    width: 15%;
+    background: #23272a;
+}
+
+.sticky-menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.container-aside-r{
+    width: 23%;
+    overflow: hidden;
+    background: #23272a;
+}
+
+.container-img-recomendado{
+    width: 100%;
+    height: 166px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.container-title-recomendado{
+    padding: 0px;
+    width: 100%;
+}
+
+.recomendados h2{
+    font-size: 2rem;
+}
+
+.titulo-recomendados{
+    border-bottom: 1px solid #99aab5a2;
+    position: relative;
+}
+
+.content-recomendados{
+    background: #23272a;
+}
+
+.content-recomendados:hover{
+    background: #373a3d;
+}
+
+.recomendados img{
+    width: 100%;
+}
+
+.hover-header a:hover{
+    background: #32373b;
+    transition: 300ms all ease;
+}
+
+.hover-header-install a:hover{
+    background: #2b4431;
+    transition: 300ms all ease;
+}
+
+.links a{
+    color: #b8c7d1;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: #7289da;
+}
+
+aside div{
+    padding: 5%;
+}
+
+aside nav {
+    padding: 5%;
+}
+
+.container-margin{
+    width: 98%;
+    padding: 0px auto;
+}
+
+.display-ib{
+    display: inline-block;
+}
+
+.position-header a {
     padding: 25px 25px;
+}
+
+.f-left div ul li a{
+    padding: 0px;
 }
 
 .f-left{
     float: left;
+}
+
+.more a{
+    padding: 0px;
 }
 
 .f-right{
@@ -233,8 +372,36 @@ box-shadow: inset 0px 0px 1px 0px rgba(255,255,255,1);
         width: 100%;
         margin-top: 10px;
     }
+
+    .title{
+        font-size: 11px;
+    }
+
+    .recomendados h2 {
+        font-size: 1.5rem;
+    }
+
+    .links{
+        font-size: 0.7rem;
+    }
+    
+    .container-all{
+        width: 95%;
+    }
+
+    .disfrute{
+        font-size: 2rem;
+    }
+    
+    .main h2{
+        font-size: 1rem;
+    }
     
 };
+
+@media (max-width: 1100px){
+
+}
 
 /* TABLETAS HORIZONTAL */
 @media (max-width: 1024px){
