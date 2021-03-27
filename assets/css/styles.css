@@ -138,6 +138,14 @@ li{
     top: 20px;
 }
 
+.container-title-recomendado h3{
+    margin-bottom: 0px;
+}
+
+.container-title-recomendado p{
+    margin: 5px 0px;
+}
+
 .container-aside-r{
     width: 23%;
     overflow: hidden;
@@ -163,10 +171,12 @@ li{
 .titulo-recomendados{
     border-bottom: 1px solid #99aab5a2;
     position: relative;
+    background: #18262e;
 }
 
 .content-recomendados{
     background: #23272a;
+    border-bottom: 1px solid #99aab5a2;
 }
 
 .content-recomendados:hover{
@@ -227,6 +237,12 @@ aside nav {
 
 .more a{
     padding: 0px;
+    color: rgb(136, 139, 150);
+}
+
+.more a:hover{
+    color:rgb(173, 177, 189);
+    text-decoration: underline;
 }
 
 .f-right{
