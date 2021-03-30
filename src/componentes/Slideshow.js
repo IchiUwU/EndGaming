@@ -118,6 +118,7 @@ const Slide = styled.div`
     z-index: 9;
     max-height: 500px;
     position: relative;
+    height: 400px;
 
     img{
         width: 100%;
