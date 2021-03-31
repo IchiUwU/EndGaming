@@ -11,7 +11,7 @@ const App = () => {
   return (
     <main class="main">
       <Titulo><h2>Disfruta de <br /> <span class="typed"></span></h2></Titulo>
-      <Slideshow controles={true} autoplay={true} velocidad="500" intervalo="5000">
+      <Slideshow controles={true} autoplay={true} velocidad="500">
         <Slide>
             <a href="https://www.youtube.com">
               <img src={img1} alt="" />
