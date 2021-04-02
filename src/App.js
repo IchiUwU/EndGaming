@@ -10,7 +10,7 @@ import img4 from './img/4.jpg';
 const App = () => {
   return (
     <main class="main">
-      <Titulo><h2>Disfruta de <br /> <span class="typed"></span></h2></Titulo>
+      <Titulo><h2>Disfruta de</h2></Titulo>
       <Slideshow controles={true} autoplay={true} velocidad="500">
         <Slide>
             <a href="https://www.youtube.com">
